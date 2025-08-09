@@ -119,8 +119,7 @@ git push origin main
 - **Lenis** - Smooth scrolling
 - **React Hook Form** - Form handling
 
-<details>
-<summary>📂 Project Structure</summary>
+## 📂 Project Structure
 
 ```plaintext
 📂 src/
