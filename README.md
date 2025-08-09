@@ -119,6 +119,87 @@ git push origin main
 - **Lenis** - Smooth scrolling
 - **React Hook Form** - Form handling
 
+
+## 🎭 Styling
+
+### Color Palette
+- **Primary**: `#043222` - Deep forest green
+- **Secondary**: `#F6E9D9` - Warm cream
+- **Accent**: `#22c55e` - Emerald green
+- **Glass**: `rgba(246, 233, 217, 0.4)` - Frosted glass effect
+
+### Design Features
+- **Glassmorphism** - Modern frosted glass effects
+- **Responsive** - Mobile-first design
+- **Dark mode ready** - Easy theme switching
+- **Smooth animations** - 60fps animations
+
+## 🌐 SEO Optimized
+
+- ✅ **Meta tags** - Complete OpenGraph and Twitter Cards
+- ✅ **Structured data** - JSON-LD schema markup
+- ✅ **Favicons** - All platform icons included
+- ✅ **Sitemap** - Automatic sitemap generation
+- ✅ **Robots.txt** - Search engine friendly
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/AFJAL-HUSSEIN/github-matrix-art)
+
+### Docker
+
+```dockerfile
+FROM node:18-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci --only=production
+COPY . .
+RUN npm run build
+EXPOSE 3000
+CMD ["npm", "start"]
+```
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+### Quick Contribution Steps
+
+1. **Fork the repository**
+2. **Create a feature branch**
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+3. **Make your changes**
+4. **Test thoroughly**
+5. **Submit a pull request**
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **GitHub** - For the amazing contribution graph
+- **Next.js Team** - For the incredible framework
+- **Shadcn/ui** - For beautiful components
+- **GSAP** - For smooth animations
+- **Open Source Community** - For endless inspiration
+
+
+## 🌟 Show Your Support
+
+Give a ⭐️ if this project helped you!
+
+---
+
+<div align="center">
+  <p><strong>Made with ❤️ by <a href="https://github.com/AFJAL-HUSSEIN">Afjal Hussein</a></strong></p>
+  <p><a href="https://github.com/AFJAL-HUSSEIN/github-matrix-art">⭐ Star this repo</a> • <a href="https://github.com/AFJAL-HUSSEIN/github-matrix-art/fork">🍴 Fork it</a></p>
+</div>
+
 ## 📂 Project Structure
 
 ```plaintext
@@ -217,86 +298,3 @@ git push origin main
 📄 .prettierrc
 📄 LICENSE
 📄 README.md
-
-    
-
-
-## 🎭 Styling
-
-### Color Palette
-- **Primary**: `#043222` - Deep forest green
-- **Secondary**: `#F6E9D9` - Warm cream
-- **Accent**: `#22c55e` - Emerald green
-- **Glass**: `rgba(246, 233, 217, 0.4)` - Frosted glass effect
-
-### Design Features
-- **Glassmorphism** - Modern frosted glass effects
-- **Responsive** - Mobile-first design
-- **Dark mode ready** - Easy theme switching
-- **Smooth animations** - 60fps animations
-
-## 🌐 SEO Optimized
-
-- ✅ **Meta tags** - Complete OpenGraph and Twitter Cards
-- ✅ **Structured data** - JSON-LD schema markup
-- ✅ **Favicons** - All platform icons included
-- ✅ **Sitemap** - Automatic sitemap generation
-- ✅ **Robots.txt** - Search engine friendly
-
-## 🚀 Deployment
-
-### Vercel (Recommended)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/AFJAL-HUSSEIN/github-matrix-art)
-
-### Docker
-
-```dockerfile
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci --only=production
-COPY . .
-RUN npm run build
-EXPOSE 3000
-CMD ["npm", "start"]
-```
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-### Quick Contribution Steps
-
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-3. **Make your changes**
-4. **Test thoroughly**
-5. **Submit a pull request**
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **GitHub** - For the amazing contribution graph
-- **Next.js Team** - For the incredible framework
-- **Shadcn/ui** - For beautiful components
-- **GSAP** - For smooth animations
-- **Open Source Community** - For endless inspiration
-
-
-## 🌟 Show Your Support
-
-Give a ⭐️ if this project helped you!
-
----
-
-<div align="center">
-  <p><strong>Made with ❤️ by <a href="https://github.com/AFJAL-HUSSEIN">Afjal Hussein</a></strong></p>
-  <p><a href="https://github.com/AFJAL-HUSSEIN/github-matrix-art">⭐ Star this repo</a> • <a href="https://github.com/AFJAL-HUSSEIN/github-matrix-art/fork">🍴 Fork it</a></p>
-</div>
