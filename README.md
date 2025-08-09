@@ -121,21 +121,92 @@ git push origin main
 
 ## 📁 Project Structure
     github-matrix-art/
-├── app/                    # Next.js app directory
-│   ├── globals.css        # Global styles
-│   ├── layout.tsx         # Root layout
-│   └── page.tsx           # Home page
-├── components/            # React components
-│   ├── matrix-display.tsx # Matrix visualization
-│   ├── script-generator.tsx # Script generation
-│   └── ui/                # Shadcn/ui components
-├── lib/                   # Utilities
-│   ├── matrix-generator.ts # Core algorithm
-│   └── utils.ts          # Helper functions
-├── public/               # Static assets
-│   ├── favicons/         # App icons
-│   └── images/           # Images
-└── styles/               # Additional styles
+├── 📂 src/
+│   ├── 📂 app/
+│   │   ├── 📂 (home)/
+│   │   │   ├── 📂 api/
+│   │   │   │   └── 📂 generate-matrix/
+│   │   │   │       └── route.ts
+│   │   │   ├── 📂 components/
+│   │   │   │   ├── hero-section.tsx
+│   │   │   │   ├── matrix-preview.tsx
+│   │   │   │   ├── script-generator.tsx
+│   │   │   │   └── features-section.tsx
+│   │   │   ├── 📂 hooks/
+│   │   │   │   └── use-matrix-generator.ts
+│   │   │   ├── 📂 utils/
+│   │   │   │   └── matrix-helpers.ts
+│   │   │   └── page.tsx
+│   │   ├── 📂 globals.css
+│   │   ├── 📂 layout.tsx
+│   │   ├── 📂 robots.ts
+│   │   └── 📂 sitemap.ts
+│   ├── 📂 components/
+│   │   ├── 📂 ui/
+│   │   │   ├── button.tsx
+│   │   │   ├── card.tsx
+│   │   │   ├── input.tsx
+│   │   │   └── ... (shadcn components)
+│   │   ├── 📂 shared/
+│   │   │   ├── seo-head.tsx
+│   │   │   ├── footer.tsx
+│   │   │   └── navigation.tsx
+│   │   └── 📂 providers/
+│   │       └── theme-provider.tsx
+│   ├── 📂 lib/
+│   │   ├── 📂 core/
+│   │   │   ├── matrix-generator.ts
+│   │   │   ├── script-builder.ts
+│   │   │   └── validators.ts
+│   │   ├── 📂 utils/
+│   │   │   ├── constants.ts
+│   │   │   ├── helpers.ts
+│   │   │   └── types.ts
+│   │   └── 📂 config/
+│   │       ├── site.ts
+│   │       └── seo.ts
+│   └── 📂 types/
+│       ├── matrix.ts
+│       └── index.ts
+├── 📂 public/
+│   ├── 📂 images/
+│   │   ├── hero/
+│   │   ├── examples/
+│   │   └── social/
+│   ├── 📂 icons/
+│   │   └── favicons/
+│   ├── 📂 fonts/
+│   └── 📂 videos/
+├── 📂 tests/
+│   ├── 📂 unit/
+│   ├── 📂 integration/
+│   └── 📂 e2e/
+├── 📂 docs/
+│   ├── 📂 api/
+│   ├── 📂 examples/
+│   └── 📂 guides/
+├── 📂 scripts/
+│   ├── 📂 build/
+│   ├── 📂 dev/
+│   └── 📂 deploy/
+├── 📂 .github/
+│   ├── 📂 workflows/
+│   │   ├── ci.yml
+│   │   └── deploy.yml
+│   ├── 📂 ISSUE_TEMPLATE/
+│   └── 📂 PULL_REQUEST_TEMPLATE/
+├── 📂 .husky/
+├── 📂 .vscode/
+├── 📂 .env.example
+├── 📂 .gitignore
+├── 📂 next.config.js
+├── 📂 package.json
+├── 📂 tsconfig.json
+├── 📂 tailwind.config.ts
+├── 📂 .eslintrc.json
+├── 📂 .prettierrc
+├── 📂 LICENSE
+└── 📂 README.md
 
 
 ## 🎭 Styling
@@ -206,11 +277,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **GSAP** - For smooth animations
 - **Open Source Community** - For endless inspiration
 
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/AFJAL-HUSSEIN/github-matrix-art/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/AFJAL-HUSSEIN/github-matrix-art/discussions)
-- **Email**: afjalhussein.ah307@gmail.com
 
 ## 🌟 Show Your Support
 
