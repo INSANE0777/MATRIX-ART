@@ -119,94 +119,107 @@ git push origin main
 - **Lenis** - Smooth scrolling
 - **React Hook Form** - Form handling
 
-## 📁 Project Structure
-    github-matrix-art/
-├── 📂 src/
-│   ├── 📂 app/
-│   │   ├── 📂 (home)/
-│   │   │   ├── 📂 api/
-│   │   │   │   └── 📂 generate-matrix/
-│   │   │   │       └── route.ts
-│   │   │   ├── 📂 components/
-│   │   │   │   ├── hero-section.tsx
-│   │   │   │   ├── matrix-preview.tsx
-│   │   │   │   ├── script-generator.tsx
-│   │   │   │   └── features-section.tsx
-│   │   │   ├── 📂 hooks/
-│   │   │   │   └── use-matrix-generator.ts
-│   │   │   ├── 📂 utils/
-│   │   │   │   └── matrix-helpers.ts
-│   │   │   └── page.tsx
-│   │   ├── 📂 globals.css
-│   │   ├── 📂 layout.tsx
-│   │   ├── 📂 robots.ts
-│   │   └── 📂 sitemap.ts
-│   ├── 📂 components/
-│   │   ├── 📂 ui/
-│   │   │   ├── button.tsx
-│   │   │   ├── card.tsx
-│   │   │   ├── input.tsx
-│   │   │   └── ... (shadcn components)
-│   │   ├── 📂 shared/
-│   │   │   ├── seo-head.tsx
-│   │   │   ├── footer.tsx
-│   │   │   └── navigation.tsx
-│   │   └── 📂 providers/
-│   │       └── theme-provider.tsx
-│   ├── 📂 lib/
-│   │   ├── 📂 core/
-│   │   │   ├── matrix-generator.ts
-│   │   │   ├── script-builder.ts
-│   │   │   └── validators.ts
+<details>
+<summary>📂 Project Structure</summary>
+
+```plaintext
+📂 src/
+├── 📂 app/
+│   ├── 📂 (home)/
+│   │   ├── 📂 api/
+│   │   │   └── 📂 generate-matrix/
+│   │   │       └── route.ts
+│   │   ├── 📂 components/
+│   │   │   ├── hero-section.tsx
+│   │   │   ├── matrix-preview.tsx
+│   │   │   ├── script-generator.tsx
+│   │   │   └── features-section.tsx
+│   │   ├── 📂 hooks/
+│   │   │   └── use-matrix-generator.ts
 │   │   ├── 📂 utils/
-│   │   │   ├── constants.ts
-│   │   │   ├── helpers.ts
-│   │   │   └── types.ts
-│   │   └── 📂 config/
-│   │       ├── site.ts
-│   │       └── seo.ts
-│   └── 📂 types/
-│       ├── matrix.ts
-│       └── index.ts
-├── 📂 public/
-│   ├── 📂 images/
-│   │   ├── hero/
-│   │   ├── examples/
-│   │   └── social/
-│   ├── 📂 icons/
-│   │   └── favicons/
-│   ├── 📂 fonts/
-│   └── 📂 videos/
-├── 📂 tests/
-│   ├── 📂 unit/
-│   ├── 📂 integration/
-│   └── 📂 e2e/
-├── 📂 docs/
-│   ├── 📂 api/
-│   ├── 📂 examples/
-│   └── 📂 guides/
-├── 📂 scripts/
-│   ├── 📂 build/
-│   ├── 📂 dev/
-│   └── 📂 deploy/
-├── 📂 .github/
-│   ├── 📂 workflows/
-│   │   ├── ci.yml
-│   │   └── deploy.yml
-│   ├── 📂 ISSUE_TEMPLATE/
-│   └── 📂 PULL_REQUEST_TEMPLATE/
-├── 📂 .husky/
-├── 📂 .vscode/
-├── 📂 .env.example
-├── 📂 .gitignore
-├── 📂 next.config.js
-├── 📂 package.json
-├── 📂 tsconfig.json
-├── 📂 tailwind.config.ts
-├── 📂 .eslintrc.json
-├── 📂 .prettierrc
-├── 📂 LICENSE
-└── 📂 README.md
+│   │   │   └── matrix-helpers.ts
+│   │   └── page.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── robots.ts
+│   └── sitemap.ts
+│
+├── 📂 components/
+│   ├── 📂 ui/
+│   │   ├── button.tsx
+│   │   ├── card.tsx
+│   │   ├── input.tsx
+│   │   └── ... (shadcn components)
+│   ├── 📂 shared/
+│   │   ├── seo-head.tsx
+│   │   ├── footer.tsx
+│   │   └── navigation.tsx
+│   └── 📂 providers/
+│       └── theme-provider.tsx
+│
+├── 📂 lib/
+│   ├── 📂 core/
+│   │   ├── matrix-generator.ts
+│   │   ├── script-builder.ts
+│   │   └── validators.ts
+│   ├── 📂 utils/
+│   │   ├── constants.ts
+│   │   ├── helpers.ts
+│   │   └── types.ts
+│   └── 📂 config/
+│       ├── site.ts
+│       └── seo.ts
+│
+├── 📂 types/
+│   ├── matrix.ts
+│   └── index.ts
+│
+📂 public/
+├── 📂 images/
+│   ├── hero/
+│   ├── examples/
+│   └── social/
+├── 📂 icons/
+│   └── favicons/
+├── 📂 fonts/
+└── 📂 videos/
+│
+📂 tests/
+├── 📂 unit/
+├── 📂 integration/
+└── 📂 e2e/
+│
+📂 docs/
+├── 📂 api/
+├── 📂 examples/
+└── 📂 guides/
+│
+📂 scripts/
+├── 📂 build/
+├── 📂 dev/
+└── 📂 deploy/
+│
+📂 .github/
+├── 📂 workflows/
+│   ├── ci.yml
+│   └── deploy.yml
+├── 📂 ISSUE_TEMPLATE/
+└── 📂 PULL_REQUEST_TEMPLATE/
+│
+📂 .husky/
+📂 .vscode/
+📄 .env.example
+📄 .gitignore
+📄 next.config.js
+📄 package.json
+📄 tsconfig.json
+📄 tailwind.config.ts
+📄 .eslintrc.json
+📄 .prettierrc
+📄 LICENSE
+📄 README.md
+
+    
 
 
 ## 🎭 Styling
